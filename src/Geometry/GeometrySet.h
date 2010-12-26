@@ -98,7 +98,7 @@ namespace OpenEngine {
             }
 
             /**
-             * Get IDataBlockPtr corrosponding to given attribute name.
+             * Get IDataBlockPtr corresponding to given attribute name.
              */
             inline Resources::IDataBlockPtr GetAttributeList(const std::string name) const { 
                 map<string, IDataBlockPtr>::const_iterator itr = attributeBlocks.find(name);
@@ -110,7 +110,7 @@ namespace OpenEngine {
             }
 
             /**
-             * Get IDataBlockPtr corrosponding to given attribute name.
+             * Get IDataBlockPtr corresponding to given attribute name.
              */
             inline map<string, IDataBlockPtr> GetAttributeLists() const { 
                 return attributeBlocks;
